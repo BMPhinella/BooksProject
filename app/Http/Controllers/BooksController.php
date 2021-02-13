@@ -14,7 +14,7 @@ class BooksController extends Controller
     }
 
     protected function getCreateBooksForm(){
-        return view('forms.get_create_books_form',compact('books'));
+        return view('forms.get_create_books_form');
     }
     private function createBooks(){
         $books                      = new books;

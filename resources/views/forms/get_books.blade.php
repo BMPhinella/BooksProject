@@ -5,7 +5,10 @@
 <link href="{{asset('cdn.datatables.net/responsive/1.0.1/css/dataTables.responsive.css')}}" rel="stylesheet">
 @endsection
 @section('main_content')
-@include('layouts.datatables')
+
+<div class="col-lg-12">
+    @include('layouts.datatables')
+</div>
 <div class="modal fade" id="booksModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog" role="document">
         <div class="modal-content">
@@ -44,8 +47,6 @@
                         <input type="date" name="publication_date" class="form-control" placeholder="mm/dd/yyyy" required />
                     </div><!-- input-group -->
                 </div><!-- form-group -->
-
-                   
             </div> 
         </div> 
     </div><!-- tab-pane -->

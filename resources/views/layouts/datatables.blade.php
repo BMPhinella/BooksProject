@@ -17,7 +17,6 @@
     <div class="info-box">
         <div class="table-responsive">
             <table id="basicPatientsTable" class="table table-striped table-bordered responsive dataTable no-footer" data-name="cool-table">
-                 
                 <thead >
                     <tr>
                         <th>No</th>
@@ -27,7 +26,6 @@
                         <th>Action</th>
                     </tr>
                 </thead>
-               
                 <tbody>
                 @foreach($books as $id=>$books) 
                     <tr>
