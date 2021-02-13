@@ -9,9 +9,9 @@
                 
             </div>
         </div><!-- header-left -->
-        <div  class="header-right">
-            <div class="pull-right">
-                <div class="media-body text-center">
+        <div  class="row">
+            <div class="pull-center">
+                <div class="media-body">
                 <h4 style="color:white;text-align:center;">BIBLIOGRAPHIC DATABASE FOR SMICH</h4>
                     <h4 style="color:white" class="media-heading"></h4>
                 </div>

@@ -45,32 +45,27 @@
             </table>
             </div> 
             </div> 
-           
     </div> 
     @endif 
 
 
     <script src="{{asset('js/jquery.dataTables.min.js')}}"></script>
-        <script src="cdn.datatables.net/plug-ins/725b2a2115b/integration/bootstrap/3/dataTables.bootstrap.js"></script>
-        <script src="cdn.datatables.net/responsive/1.0.1/js/dataTables.responsive.js"></script>
+        <script src="http://cdn.datatables.net/plug-ins/725b2a2115b/integration/bootstrap/3/dataTables.bootstrap.js"></script>
+        <script src="http://cdn.datatables.net/responsive/1.0.1/js/dataTables.responsive.js"></script>
         <script src="{{asset('js/select2.min.js')}}"></script>
 
         <script src="{{asset('js/custom.js')}}"></script>
 
 
         <script>
-             
-             jQuery(document).ready(function(){
+            jQuery(document).ready(function(){
 
                 $.noConflict();
                 var columns = [0,1,2,3,4,5];
                 var table = $("#basicPatientsTable");
                 //table.dataTable();
                 var title = "List of registered patients";
-                smartTable(table, title, columns);
-
-            
-             
+                smartTable(table, title, columns); 
                 var columns1 = [0,1,2,3,4,5];
                 var table1 = $("#basicTable1");
                 var title1 = "List of registered appointments";
