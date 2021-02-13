@@ -9,6 +9,8 @@
             <button type="button"  class="btn btn-primary" data-toggle="modal" data-target="#booksModal">
                 Add Book
             </button>
+            <input class="text-left" type="text" placeholder="Search.." name="search">
+            <button type="submit"><i class="fa fa-search"></i></button>
         </div>
 
     </div><!-- panel-heading -->
