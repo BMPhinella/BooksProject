@@ -80,7 +80,7 @@
 @include('layouts.login_layouts.styling')
 <body class="hold-transition login-page">
 <div class="login-box">
-<div class="logo text-left text-center mb-2"><img src="{{asset('images/books.jpg')}}" style="width:100px; height:100px;"/> </div>
+<div class="logo text-left text-center mb-2"><img src="{{asset('images/logo22.png')}}" style="width:100px; height:100px;"/> </div>
   <div class="login-box-body">
     <h3 class="login-box-msg">Sign In</h3>
     

@@ -6,11 +6,13 @@
                 <a href="#" class="menu-collapse">
                     <i class="fa fa-bars"></i>
                 </a>
+                
             </div>
         </div><!-- header-left -->
         <div  class="header-right">
             <div class="pull-right">
-                <div class="media-body">
+                <div class="media-body text-center">
+                <h4 style="color:white;text-align:center;">BIBLIOGRAPHIC DATABASE FOR SMICH</h4>
                     <h4 style="color:white" class="media-heading"></h4>
                 </div>
             </div><!-- media -->
