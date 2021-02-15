@@ -24,6 +24,7 @@ Route::get('/create-books','BooksController@validateBooks');
 Route::get('/delete-books/{id}','BooksController@deleteBooks');
 Route::get('/get-books','BooksController@getBooks')->name("Books Details");
 Route::get('/get-create-books-form','BooksController@getCreateBooksForm')->name("Add Books");
+Route::post('/search-books','BooksController@searchBooks')->name("Books Details");
 });
 
 Route::get('/logout','HomeController@logMeOut');

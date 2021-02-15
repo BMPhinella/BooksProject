@@ -44,4 +44,9 @@ class BooksController extends Controller
         Books::find($id)->delete();
         return redirect()->back()->with('message', "Your changes were made successfully");
     }
+
+    protected function searchBooks(){
+        $books = Books::where('author',request()->search)->orWhere('title',request()->search)->orWhere('publication_date',request()->search)->get();
+        return view('forms.get_books',compact('books'));
+    }
 }

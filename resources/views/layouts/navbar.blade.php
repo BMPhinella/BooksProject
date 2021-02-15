@@ -12,7 +12,7 @@
         <div  class="row">
             <div class="pull-center">
                 <div class="media-body">
-                <h4 style="color:white;text-align:center;">BIBLIOGRAPHIC DATABASE FOR SMICH</h4>
+                <h4 style="color:white;text-align:center;">A BIBLIOGRAPHIC DATABASE FOR SMICH LIBRARY</h4>
                     <h4 style="color:white" class="media-heading"></h4>
                 </div>
             </div><!-- media -->
